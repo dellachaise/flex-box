@@ -1,0 +1,20 @@
+{
+  "name": "template",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Dasha <dellachaise@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dellachaise/tasks",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+  }
+}
