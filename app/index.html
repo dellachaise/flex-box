@@ -5,6 +5,7 @@
 	<title>Test Gulp</title>
 	<!-- build:css css/vendor.min.css -->
 	<!-- bower:css -->
+	<link rel="stylesheet" href="libs/normalize-css/normalize.css" />
 	<!-- endbower -->
 	<!-- endbuild -->
 	<!-- build:css css/main.min.css -->
@@ -12,8 +13,111 @@
 	<!-- endbuild -->
 </head>
 <body>
-	
-	<h1> GulpJS</h1>
+	<header class="main-header clearfix">
+        <a href="#">
+        	<img class="logo" src="img/microsoft.png" alt="Microsoft">
+    	</a>
+        <nav class="main-menu">
+        	<ul>
+                <li><a href="#">Магазин</a>
+                	<ul>
+                		<li><a href="#">Домашня сторінка Магазину</a></li>
+                		<li><a href="#">Office</a>
+                		<li><a href="#">Windows</a>
+            		</ul>
+        		</li>
+                </li>
+                <li><a href="#">Продукти</a></li>
+                <li><a href="#">Підтримка</a></li>
+            </ul>
+        </nav>
+        <div class="right-header">
+            <form class="head-search">
+            	<input type="search" title="Пошук на веб-сайті Microsoft.com" name="q" placeholder="Пошук на веб-сайті Microsoft.com">
+            	<button class="layout-left" type="submit" title="Пошук"></button>
+        	</form>
+        	<div class="cart">
+	        	<a href="#" title="Кошик">
+	        		<span>0</span>
+	    		</a>
+    		</div>
+    		<a class="login" href="#" title="Вхід">Вхід</a>
+    	</div>
+
+            <!-- <ul class="drop_vert_menu">
+                <li><a href="#">Магазин</a>
+                	<ul>
+                		<li><a href="#">Домашня сторінка</a></li>
+                		<li><a href="#">Office</a>
+	                		<ul>
+			            		<li><a href="#">Всі версії Office</a></li>
+			            		<li><a href="#">Програмні комплекси Office</a></li>
+			            		<li><a href="#">Усі програми Office</a></li>
+			            		<li><a href="#">Office для вашого Mac</a></li>
+			            		<li><a href="#">Office 365</a></li>
+			            		<li><a href="#">Порівняння програмних комплексів Office</a></li>
+			            		<li><a href="#">Мовні пакети Office</a></li>
+	                		</ul>
+                		</li>
+                		<li><a href="#">Windows</a>
+        		</li>
+                			<ul>
+		                		<li><a href="#">Windows 10 Home</a></li>
+		                		<li><a href="#">Windows 10 Pro</a></li>
+                			</ul>
+                		</li>
+                	</ul>
+                <li><a href="#">Продукти</a>
+                	<ul>
+                		<li><a href="#">Програмне забезпечення та служби</a>
+                			<ul>
+			            		<li><a href="#">Windows</a></li>
+			            		<li><a href="#">Office</a></li>
+			            		<li><a href="#">Безкоштовні завантаження та безпека</a></li>
+			            		<li><a href="#">Internet Explorer</a></li>
+			            		<li><a href="#">Microsoft Edge</a></li>
+			            		<li><a href="#">Skype</a></li>
+			            		<li><a href="#">OneNote</a></li>
+	                		</ul>
+                		</li>
+                		<li><a href="#">Присторої та Xbox</a>
+                			<ul>
+			            		<li><a href="#">Комп'ютерні аксесуари</a></li>
+			            		<li><a href="#">Microsoft Lumia</a></li>
+	                		</ul>
+                		</li>
+                		<li><a href="#">Для бізнесу</a>
+                			<ul>
+			            		<li><a href="#">Microsoft Azure</a></li>
+			            		<li><a href="#">Microsoft Dynamics</a></li>
+			            		<li><a href="#">Windows для бізнесу</a></li>
+			            		<li><a href="#">Office для бізнесу</a></li>
+			            		<li><a href="#">Skype для бізнесу</a></li>
+			            		<li><a href="#">Корпоративні рішення</a></li>
+			            		<li><a href="#">Рішення для малого бизнесу</a></li>
+			            		<li><a href="#">Знайті постачальника рішень</a></li>
+	                		</ul>
+                		</li>
+                		<li><a href="#">Для IT-фахівців і розробників</a>
+                			<ul>
+			            		<li><a href="#">Розробка програм Windows</a></li>
+			            		<li><a href="#">Microsoft Azure</a></li>
+			            		<li><a href="#">MSDN</a></li>
+			            		<li><a href="#">Visual Studio</a></li>
+	                		</ul>
+                		</li>
+                		<li><a href="#">Освіта</a>
+                			<ul>
+			            		<li><a href="#">Освіта</a></li>
+	                		</ul>
+                		</li>
+                	</ul>
+            	</li>
+                <li><a href="#">Підтрімка</a></li>
+            </ul> -->
+            
+        
+        </header>
 	
 	<!-- build:js js/vendor.min.js --> 
 	<!-- bower:js -->

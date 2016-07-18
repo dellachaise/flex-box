@@ -23,5 +23,8 @@
     "imagemin-pngquant": "^5.0.0",
     "rimraf": "^2.5.2",
     "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "wiredep": "^4.0.0"
   }
 }
